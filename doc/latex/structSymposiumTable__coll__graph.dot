@@ -1,0 +1,12 @@
+digraph "SymposiumTable"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="{SymposiumTable\n|+ mx\l+ state\l|}",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="A symposium monitor."];
+  Node2 -> Node1 [color="grey25",style="solid",label=" +symp" ,arrowhead="odiamond"];
+  Node2 [label="{symposium_t\n|+ N\l+ bites\l+ fmin\l+ fmax\l|}",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structsymposium__t.html",tooltip="A symposium definition."];
+  Node3 -> Node1 [color="grey25",style="solid",label=" +hungry" ,arrowhead="odiamond"];
+  Node3 [label="{CondVar\n|+ waitset\l+ waitset_lock\l|}",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$structCondVar.html",tooltip="Condition variables."];
+}

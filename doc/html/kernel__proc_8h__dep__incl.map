@@ -1,0 +1,10 @@
+<map id="kernel_proc.h" name="kernel_proc.h">
+<area shape="rect" id="node1" title="The process table and process management." alt="" coords="377,5,486,31"/>
+<area shape="rect" id="node2" href="$kernel__cc_8c.html" title="The implementation for concurrency control ." alt="" coords="5,79,100,104"/>
+<area shape="rect" id="node3" href="$kernel__dev_8c_source.html" title=" " alt="" coords="124,79,227,104"/>
+<area shape="rect" id="node4" href="$kernel__init_8c_source.html" title=" " alt="" coords="251,79,353,104"/>
+<area shape="rect" id="node5" href="$kernel__proc_8c_source.html" title=" " alt="" coords="377,79,485,104"/>
+<area shape="rect" id="node6" href="$kernel__sched_8c_source.html" title=" " alt="" coords="509,79,628,104"/>
+<area shape="rect" id="node7" href="$kernel__streams_8c_source.html" title=" " alt="" coords="653,79,786,104"/>
+<area shape="rect" id="node8" href="$kernel__threads_8c_source.html" title=" " alt="" coords="811,79,940,104"/>
+</map>
